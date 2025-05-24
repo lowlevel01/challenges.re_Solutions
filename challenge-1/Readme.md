@@ -1,6 +1,6 @@
 # Challenge 1 : https://challenges.re/1/
 
-``assembly
+````assembly
 
 <f>:
    0:                   mov    r8,rdi
@@ -19,4 +19,4 @@ begin:
   1a:                   mov    rax,rdx
   1d:                   ret
 
-``
+````
