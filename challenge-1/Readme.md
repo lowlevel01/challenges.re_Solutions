@@ -1,5 +1,7 @@
 # Challenge 1 : https://challenges.re/1/
 
+#### The function has 4 arguments and it is compiled by GCC for Linux x64 ABI
+
 ````assembly
 
 <f>:
