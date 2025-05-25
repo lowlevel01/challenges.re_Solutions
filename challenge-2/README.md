@@ -26,10 +26,10 @@
   41:          or     eax,edx   <---- again swapping every bits with the one next to it
   43:          ret
 ````
-====
+
 Take a byte for example with the digits : abcd efgh
 After swapping every other 4 bits it becomes : efgh abcd
 After swapping evert other 2 bits it becomes : ghef cdab
 After swapping every other bit it becomes: hgfe dcba <====> abcd efgh reversed
 Since the bytes were reverse in the beginning and the digits of every byte are reversed then this function reverses the bits in an integer
-====
+
