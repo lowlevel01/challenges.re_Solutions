@@ -45,7 +45,7 @@ So basically, the Shifts and ORs take the Most Significant Bit and OR it with al
 ==> After this algorithm, numbers with same MSB set will have the same result.
 
 The constant 0x4badf0d is carefully chosen since it's what's called a De Bruijn sequence (i.e. every substring appears only once in the bit sequence).
-When this constant is multiplied by the result of the previous algorithm it yield a unique sequence in the upper 5 bits. 
+When this constant is multiplied by the result of the previous algorithm it yield a unique sequence in the upper 5 bits (can be proven with math, I won't bother you with the proof) . 
 In the end we have (2^(k+1) - 1) * 0x4badf0d >> 26 . 
 The constant is chose to be a De Bruijn constant so that the result of the previous operation is unique for each k between 0 and 31. 
 Which creates a unique index in the array. Which a pre computed table.
