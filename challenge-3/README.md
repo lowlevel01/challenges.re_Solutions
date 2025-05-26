@@ -48,7 +48,7 @@ The constant 0x4badf0d is carefully chosen since it's what's called a De Bruijn 
 When this constant is multiplied by the result of the previous algorithm it yield a unique sequence in the upper 5 bits. 
 In the end we have (2^(k+1) - 1) * 0x4badf0d >> 26 . 
 The constant is chose to be a De Bruijn constant so that the result of the previous operation is unique for each k between 0 and 31. 
-Which creates a unique index in the array. Which a pre computed table to store the MSBs. 
+Which creates a unique index in the array. Which a pre computed table.
 
 ==> This assembly transforms numbers with same MSB to the same number by setting all the bits to the right. 
 ==> So, numbers with same MSB map to the same number. 
