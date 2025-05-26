@@ -34,7 +34,7 @@ f:
 	ret
 ````
 
-``
+````
 Let's start with the binary number 1000 0000
 1st shift and or gives 1000 0000 | 01000 000 = 1100 0000
 2nd one gives : 1100 0000 | 0011 0000 = 1111 0000
@@ -53,4 +53,4 @@ Which creates a unique index in the array. Which a pre computed table to store t
 ==> This assembly transforms numbers with same MSB to the same number by setting all the bits to the right. 
 ==> So, numbers with same MSB map to the same number. 
 ==> You can verify by running the code. This assembly determines the position of the MSB starting from the left.
-``
+````
