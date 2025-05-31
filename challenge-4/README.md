@@ -21,4 +21,4 @@
 
 ````
 
-This is a direct implementation of https://graphics.stanford.edu/~seander/bithacks.html#CountBitsFromMSBToPos explained in detail in https://bits.stephan-brumme.com/countBits.html which counts the number of set bits in an integer except in this assembly the count is about the whole integer.
+This is a direct implementation of https://graphics.stanford.edu/~seander/bithacks.html#CountBitsFromMSBToPos explained in detail in https://bits.stephan-brumme.com/countBits.html which counts the number of set bits in an integer.
